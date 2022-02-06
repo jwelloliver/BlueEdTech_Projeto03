@@ -37,6 +37,9 @@ function jogador(nome,numero) {
 
      cont++;
     }
-
+// Funçao ordenar objeto dentro da lista pelo valor do numero do menor para maior
+listaJogadores.sort(function(valorA,valorB){
+    return valorA - valorB;
+});
 
 console.log(listaJogadores);
